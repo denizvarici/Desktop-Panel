@@ -1,0 +1,15 @@
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\bin\Debug\net6.0\Panel.Entities.deps.json
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\bin\Debug\net6.0\Panel.Entities.dll
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\bin\Debug\net6.0\Panel.Entities.pdb
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.GeneratedMSBuildEditorConfig.editorconfig
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.AssemblyInfoInputs.cache
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.AssemblyInfo.cs
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.csproj.CoreCompileInputs.cache
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.sourcelink.json
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.dll
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\refint\Panel.Entities.dll
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.pdb
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\ref\Panel.Entities.dll
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\bin\Debug\net6.0\Panel.Entities.runtimeconfig.json
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.csproj.AssemblyReference.cache
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.Entities\obj\Debug\net6.0\Panel.Entities.genruntimeconfig.cache
