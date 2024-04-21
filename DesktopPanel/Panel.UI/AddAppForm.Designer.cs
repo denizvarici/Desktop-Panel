@@ -51,7 +51,7 @@
             // lblAppName
             // 
             lblAppName.BackColor = Color.Transparent;
-            lblAppName.Location = new Point(12, 49);
+            lblAppName.Location = new Point(18, 16);
             lblAppName.Name = "lblAppName";
             lblAppName.Size = new Size(82, 22);
             lblAppName.TabIndex = 0;
@@ -69,7 +69,7 @@
             tbxAppName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             tbxAppName.ForeColor = Color.Black;
             tbxAppName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxAppName.Location = new Point(111, 49);
+            tbxAppName.Location = new Point(117, 16);
             tbxAppName.Name = "tbxAppName";
             tbxAppName.PasswordChar = '\0';
             tbxAppName.PlaceholderText = "";
@@ -90,7 +90,7 @@
             tbxAppPath.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxAppPath.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             tbxAppPath.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxAppPath.Location = new Point(111, 89);
+            tbxAppPath.Location = new Point(117, 56);
             tbxAppPath.Name = "tbxAppPath";
             tbxAppPath.PasswordChar = '\0';
             tbxAppPath.PlaceholderText = "";
@@ -102,7 +102,7 @@
             // lblAppPath
             // 
             lblAppPath.BackColor = Color.Transparent;
-            lblAppPath.Location = new Point(23, 89);
+            lblAppPath.Location = new Point(29, 56);
             lblAppPath.Name = "lblAppPath";
             lblAppPath.Size = new Size(71, 22);
             lblAppPath.TabIndex = 2;
@@ -118,7 +118,7 @@
             btnAppBrowse.FillColor = Color.Silver;
             btnAppBrowse.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnAppBrowse.ForeColor = Color.White;
-            btnAppBrowse.Location = new Point(367, 89);
+            btnAppBrowse.Location = new Point(373, 56);
             btnAppBrowse.Name = "btnAppBrowse";
             btnAppBrowse.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnAppBrowse.Size = new Size(80, 22);
@@ -136,7 +136,7 @@
             btnAppSave.FillColor = Color.FromArgb(0, 192, 0);
             btnAppSave.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnAppSave.ForeColor = Color.White;
-            btnAppSave.Location = new Point(111, 181);
+            btnAppSave.Location = new Point(117, 148);
             btnAppSave.Name = "btnAppSave";
             btnAppSave.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnAppSave.Size = new Size(250, 56);
@@ -155,7 +155,7 @@
             cbxAppCategory.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             cbxAppCategory.ForeColor = Color.FromArgb(68, 88, 112);
             cbxAppCategory.ItemHeight = 30;
-            cbxAppCategory.Location = new Point(111, 128);
+            cbxAppCategory.Location = new Point(117, 95);
             cbxAppCategory.Name = "cbxAppCategory";
             cbxAppCategory.ShadowDecoration.CustomizableEdges = customizableEdges10;
             cbxAppCategory.Size = new Size(250, 36);
@@ -165,7 +165,7 @@
             // lblAppCategory
             // 
             lblAppCategory.BackColor = Color.Transparent;
-            lblAppCategory.Location = new Point(-1, 142);
+            lblAppCategory.Location = new Point(5, 109);
             lblAppCategory.Name = "lblAppCategory";
             lblAppCategory.Size = new Size(102, 22);
             lblAppCategory.TabIndex = 7;
@@ -175,7 +175,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(460, 260);
+            ClientSize = new Size(460, 225);
             Controls.Add(lblAppCategory);
             Controls.Add(cbxAppCategory);
             Controls.Add(btnAppSave);

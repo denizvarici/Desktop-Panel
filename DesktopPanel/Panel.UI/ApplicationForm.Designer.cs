@@ -36,50 +36,35 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            panelApps = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            panelCategories = new Guna.UI2.WinForms.Guna2Panel();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            btnAddApp = new Guna.UI2.WinForms.Guna2Button();
             btnAppDelete = new Guna.UI2.WinForms.Guna2Button();
+            tabControl = new Guna.UI2.WinForms.Guna2TabControl();
+            btnRefreshTabControl = new Guna.UI2.WinForms.Guna2CircleButton();
+            btnCategoryDelete = new Guna.UI2.WinForms.Guna2Button();
+            btnCategoryAdd = new Guna.UI2.WinForms.Guna2Button();
             SuspendLayout();
             // 
-            // panelApps
+            // btnAddApp
             // 
-            panelApps.CustomizableEdges = customizableEdges1;
-            panelApps.Location = new Point(12, 84);
-            panelApps.Name = "panelApps";
-            panelApps.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            panelApps.Size = new Size(1004, 377);
-            panelApps.TabIndex = 0;
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.CustomizableEdges = customizableEdges3;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(779, 467);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button1.Size = new Size(225, 56);
-            guna2Button1.TabIndex = 1;
-            guna2Button1.Text = "Uygulama ekle";
-            guna2Button1.Click += guna2Button1_Click;
-            // 
-            // panelCategories
-            // 
-            panelCategories.CustomizableEdges = customizableEdges5;
-            panelCategories.Location = new Point(12, 12);
-            panelCategories.Name = "panelCategories";
-            panelCategories.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            panelCategories.Size = new Size(1004, 66);
-            panelCategories.TabIndex = 3;
+            btnAddApp.CustomizableEdges = customizableEdges1;
+            btnAddApp.DisabledState.BorderColor = Color.DarkGray;
+            btnAddApp.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnAddApp.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnAddApp.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnAddApp.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAddApp.ForeColor = Color.White;
+            btnAddApp.Location = new Point(790, 477);
+            btnAddApp.Name = "btnAddApp";
+            btnAddApp.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnAddApp.Size = new Size(225, 56);
+            btnAddApp.TabIndex = 1;
+            btnAddApp.Text = "Uygulama ekle";
+            btnAddApp.Click += btnAddApp_Click_1;
             // 
             // btnAppDelete
             // 
-            btnAppDelete.CustomizableEdges = customizableEdges7;
+            btnAppDelete.CustomizableEdges = customizableEdges3;
             btnAppDelete.DisabledState.BorderColor = Color.DarkGray;
             btnAppDelete.DisabledState.CustomBorderColor = Color.DarkGray;
             btnAppDelete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -87,23 +72,105 @@
             btnAppDelete.FillColor = Color.Red;
             btnAppDelete.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnAppDelete.ForeColor = Color.White;
-            btnAppDelete.Location = new Point(538, 467);
+            btnAppDelete.Location = new Point(549, 477);
             btnAppDelete.Name = "btnAppDelete";
-            btnAppDelete.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnAppDelete.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnAppDelete.Size = new Size(225, 56);
             btnAppDelete.TabIndex = 4;
             btnAppDelete.Text = "Uygulama sil";
             btnAppDelete.Click += btnAppDelete_Click;
             // 
+            // tabControl
+            // 
+            tabControl.Alignment = TabAlignment.Left;
+            tabControl.ItemSize = new Size(180, 40);
+            tabControl.Location = new Point(12, 12);
+            tabControl.Name = "tabControl";
+            tabControl.SelectedIndex = 0;
+            tabControl.Size = new Size(894, 429);
+            tabControl.TabButtonHoverState.BorderColor = Color.Empty;
+            tabControl.TabButtonHoverState.FillColor = Color.FromArgb(40, 52, 70);
+            tabControl.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl.TabButtonHoverState.ForeColor = Color.White;
+            tabControl.TabButtonHoverState.InnerColor = Color.FromArgb(40, 52, 70);
+            tabControl.TabButtonIdleState.BorderColor = Color.Empty;
+            tabControl.TabButtonIdleState.FillColor = Color.FromArgb(33, 42, 57);
+            tabControl.TabButtonIdleState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl.TabButtonIdleState.ForeColor = Color.FromArgb(156, 160, 167);
+            tabControl.TabButtonIdleState.InnerColor = Color.FromArgb(33, 42, 57);
+            tabControl.TabButtonSelectedState.BorderColor = Color.Empty;
+            tabControl.TabButtonSelectedState.FillColor = Color.FromArgb(29, 37, 49);
+            tabControl.TabButtonSelectedState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl.TabButtonSelectedState.ForeColor = Color.White;
+            tabControl.TabButtonSelectedState.InnerColor = Color.FromArgb(76, 132, 255);
+            tabControl.TabButtonSize = new Size(180, 40);
+            tabControl.TabIndex = 5;
+            tabControl.TabMenuBackColor = Color.FromArgb(33, 42, 57);
+            // 
+            // btnRefreshTabControl
+            // 
+            btnRefreshTabControl.DisabledState.BorderColor = Color.DarkGray;
+            btnRefreshTabControl.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnRefreshTabControl.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnRefreshTabControl.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnRefreshTabControl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnRefreshTabControl.ForeColor = Color.White;
+            btnRefreshTabControl.Location = new Point(929, 12);
+            btnRefreshTabControl.Name = "btnRefreshTabControl";
+            btnRefreshTabControl.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            btnRefreshTabControl.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btnRefreshTabControl.Size = new Size(86, 76);
+            btnRefreshTabControl.TabIndex = 6;
+            btnRefreshTabControl.Text = "Yenile";
+            btnRefreshTabControl.Click += btnRefreshTabControl_Click;
+            // 
+            // btnCategoryDelete
+            // 
+            btnCategoryDelete.CustomizableEdges = customizableEdges6;
+            btnCategoryDelete.DisabledState.BorderColor = Color.DarkGray;
+            btnCategoryDelete.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCategoryDelete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCategoryDelete.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCategoryDelete.FillColor = Color.Red;
+            btnCategoryDelete.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCategoryDelete.ForeColor = Color.White;
+            btnCategoryDelete.Location = new Point(15, 477);
+            btnCategoryDelete.Name = "btnCategoryDelete";
+            btnCategoryDelete.ShadowDecoration.CustomizableEdges = customizableEdges7;
+            btnCategoryDelete.Size = new Size(225, 56);
+            btnCategoryDelete.TabIndex = 8;
+            btnCategoryDelete.Text = "Kategori sil";
+            btnCategoryDelete.Click += btnCategoryDelete_Click;
+            // 
+            // btnCategoryAdd
+            // 
+            btnCategoryAdd.CustomizableEdges = customizableEdges8;
+            btnCategoryAdd.DisabledState.BorderColor = Color.DarkGray;
+            btnCategoryAdd.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCategoryAdd.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCategoryAdd.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCategoryAdd.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCategoryAdd.ForeColor = Color.White;
+            btnCategoryAdd.Location = new Point(256, 477);
+            btnCategoryAdd.Name = "btnCategoryAdd";
+            btnCategoryAdd.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            btnCategoryAdd.Size = new Size(225, 56);
+            btnCategoryAdd.TabIndex = 7;
+            btnCategoryAdd.Text = "Kategori ekle";
+            btnCategoryAdd.Click += btnCategoryAdd_Click;
+            // 
             // ApplicationForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1028, 531);
+            BackColor = SystemColors.Control;
+            ClientSize = new Size(1027, 545);
+            Controls.Add(btnCategoryDelete);
+            Controls.Add(btnCategoryAdd);
+            Controls.Add(btnRefreshTabControl);
+            Controls.Add(tabControl);
             Controls.Add(btnAppDelete);
-            Controls.Add(panelCategories);
-            Controls.Add(guna2Button1);
-            Controls.Add(panelApps);
+            Controls.Add(btnAddApp);
             Name = "ApplicationForm";
             Text = "ApplicationForm";
             Load += ApplicationForm_Load;
@@ -111,10 +178,11 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Panel panelApps;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel panelCategories;
+        private Guna.UI2.WinForms.Guna2Button btnAddApp;
         private Guna.UI2.WinForms.Guna2Button btnAppDelete;
+        private Guna.UI2.WinForms.Guna2TabControl tabControl;
+        private Guna.UI2.WinForms.Guna2CircleButton btnRefreshTabControl;
+        private Guna.UI2.WinForms.Guna2Button btnCategoryDelete;
+        private Guna.UI2.WinForms.Guna2Button btnCategoryAdd;
     }
 }

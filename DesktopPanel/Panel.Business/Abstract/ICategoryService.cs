@@ -11,5 +11,8 @@ namespace Panel.Business.Abstract
     public interface ICategoryService
     {
         List<Category> GetAll(Expression<Func<Category, bool>> filter = null);
+        void Add(Category category);
+        void Update(Category category);
+        void Delete(Category category);
     }
 }

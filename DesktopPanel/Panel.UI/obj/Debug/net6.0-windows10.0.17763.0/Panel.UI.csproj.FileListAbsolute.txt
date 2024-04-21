@@ -51,3 +51,6 @@ R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763
 R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\Panel.UI.genruntimeconfig.cache
 R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\ref\Panel.UI.dll
 R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\Panel.UI.PanelSettingsForm.resources
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\Panel.UI.TesfForm.resources
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\Panel.UI.AddCategoryForm.resources
+R:\GITHUB\Desktop-Panel\DesktopPanel\Panel.UI\obj\Debug\net6.0-windows10.0.17763.0\Panel.UI.DeleteCategoryForm.resources

@@ -45,6 +45,9 @@
             btnSystemSettings = new Guna.UI2.WinForms.Guna2CircleButton();
             btnApps = new Guna.UI2.WinForms.Guna2CircleButton();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
+            guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(components);
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             contextMenuStrip.SuspendLayout();
             guna2Panel1.SuspendLayout();
             SuspendLayout();
@@ -81,6 +84,8 @@
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.Navy;
+            guna2Panel1.Controls.Add(guna2HtmlLabel2);
+            guna2Panel1.Controls.Add(guna2HtmlLabel1);
             guna2Panel1.Controls.Add(btnExit);
             guna2Panel1.Controls.Add(btnPanelSettings);
             guna2Panel1.Controls.Add(btnSystemSettings);
@@ -170,6 +175,29 @@
             guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+            // guna2DragControl1
+            // 
+            guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // guna2HtmlLabel1
+            // 
+            guna2HtmlLabel1.BackColor = Color.White;
+            guna2HtmlLabel1.Location = new Point(835, 427);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(155, 22);
+            guna2HtmlLabel1.TabIndex = 4;
+            guna2HtmlLabel1.Text = "www.denizvarici.com.tr";
+            // 
+            // guna2HtmlLabel2
+            // 
+            guna2HtmlLabel2.BackColor = Color.White;
+            guna2HtmlLabel2.Location = new Point(411, 427);
+            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            guna2HtmlLabel2.Size = new Size(187, 22);
+            guna2HtmlLabel2.TabIndex = 5;
+            guna2HtmlLabel2.Text = "Developed By Deniz VARICI";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -185,6 +213,7 @@
             Load += MainForm_Load;
             contextMenuStrip.ResumeLayout(false);
             guna2Panel1.ResumeLayout(false);
+            guna2Panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -199,5 +228,8 @@
         private Guna.UI2.WinForms.Guna2CircleButton btnApps;
         private Guna.UI2.WinForms.Guna2ControlBox btnExit;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
