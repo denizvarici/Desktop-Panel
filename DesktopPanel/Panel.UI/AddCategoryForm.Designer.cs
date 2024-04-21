@@ -32,6 +32,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCategoryForm));
             btnCategorySave = new Guna.UI2.WinForms.Guna2Button();
             tbxCategoryName = new Guna.UI2.WinForms.Guna2TextBox();
             lblCategoryName = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -93,8 +94,10 @@
             Controls.Add(btnCategorySave);
             Controls.Add(tbxCategoryName);
             Controls.Add(lblCategoryName);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AddCategoryForm";
-            Text = "AddCategoryForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Kategori Ekle";
             ResumeLayout(false);
             PerformLayout();
         }

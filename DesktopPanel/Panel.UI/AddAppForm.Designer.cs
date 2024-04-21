@@ -38,6 +38,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddAppForm));
             lblAppName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             tbxAppName = new Guna.UI2.WinForms.Guna2TextBox();
             tbxAppPath = new Guna.UI2.WinForms.Guna2TextBox();
@@ -184,8 +185,10 @@
             Controls.Add(lblAppPath);
             Controls.Add(tbxAppName);
             Controls.Add(lblAppName);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "AddAppForm";
-            Text = "AddAppForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Uygulama Ekle";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelSettingsForm));
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             linkLabel1 = new LinkLabel();
             linkLabel2 = new LinkLabel();
@@ -70,8 +71,10 @@
             Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
             Controls.Add(guna2HtmlLabel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "PanelSettingsForm";
-            Text = "PanelSettingsForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Panel Ayarları";
             Load += PanelSettingsForm_Load;
             ResumeLayout(false);
             PerformLayout();

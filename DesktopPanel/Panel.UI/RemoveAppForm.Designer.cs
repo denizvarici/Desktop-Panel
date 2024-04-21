@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RemoveAppForm));
             lblCategoryName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             cbxCategories = new Guna.UI2.WinForms.Guna2ComboBox();
             cbxApps = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -53,7 +54,7 @@
             // cbxCategories
             // 
             cbxCategories.BackColor = Color.Transparent;
-            cbxCategories.CustomizableEdges = customizableEdges1;
+            cbxCategories.CustomizableEdges = customizableEdges7;
             cbxCategories.DrawMode = DrawMode.OwnerDrawFixed;
             cbxCategories.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxCategories.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -63,7 +64,7 @@
             cbxCategories.ItemHeight = 30;
             cbxCategories.Location = new Point(96, 12);
             cbxCategories.Name = "cbxCategories";
-            cbxCategories.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            cbxCategories.ShadowDecoration.CustomizableEdges = customizableEdges8;
             cbxCategories.Size = new Size(175, 36);
             cbxCategories.TabIndex = 1;
             cbxCategories.SelectedIndexChanged += cbxCategories_SelectedIndexChanged;
@@ -71,7 +72,7 @@
             // cbxApps
             // 
             cbxApps.BackColor = Color.Transparent;
-            cbxApps.CustomizableEdges = customizableEdges3;
+            cbxApps.CustomizableEdges = customizableEdges9;
             cbxApps.DrawMode = DrawMode.OwnerDrawFixed;
             cbxApps.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxApps.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -81,7 +82,7 @@
             cbxApps.ItemHeight = 30;
             cbxApps.Location = new Point(96, 67);
             cbxApps.Name = "cbxApps";
-            cbxApps.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            cbxApps.ShadowDecoration.CustomizableEdges = customizableEdges10;
             cbxApps.Size = new Size(175, 36);
             cbxApps.TabIndex = 3;
             // 
@@ -96,7 +97,7 @@
             // 
             // btnDeleteApp
             // 
-            btnDeleteApp.CustomizableEdges = customizableEdges5;
+            btnDeleteApp.CustomizableEdges = customizableEdges11;
             btnDeleteApp.DisabledState.BorderColor = Color.DarkGray;
             btnDeleteApp.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDeleteApp.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -108,7 +109,7 @@
             btnDeleteApp.ForeColor = Color.White;
             btnDeleteApp.Location = new Point(96, 137);
             btnDeleteApp.Name = "btnDeleteApp";
-            btnDeleteApp.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnDeleteApp.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnDeleteApp.Size = new Size(175, 56);
             btnDeleteApp.TabIndex = 4;
             btnDeleteApp.Text = "Delete";
@@ -125,8 +126,10 @@
             Controls.Add(lblAppName);
             Controls.Add(cbxCategories);
             Controls.Add(lblCategoryName);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "RemoveAppForm";
-            Text = "RemoveAppForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Uygulama sil";
             Load += RemoveAppForm_Load;
             ResumeLayout(false);
             PerformLayout();

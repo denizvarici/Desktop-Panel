@@ -110,8 +110,10 @@
             Controls.Add(lblAudioLevel);
             Controls.Add(soundPot);
             Controls.Add(waveformPainter1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "SystemSettingsForm";
-            Text = "SystemSettingsForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Sistem ayarları";
             Load += SystemSettingsForm_Load;
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);

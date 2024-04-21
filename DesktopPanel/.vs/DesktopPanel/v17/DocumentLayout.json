@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4E9A38E9-C793-4351-A0C8-62686FDF76B4}|Panel.UI\\Panel.UI.csproj|solutionrelative:panel.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E9A38E9-C793-4351-A0C8-62686FDF76B4}|Panel.UI\\Panel.UI.csproj|r:\\github\\desktop-panel\\desktoppanel\\panel.ui\\panelsettingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4E9A38E9-C793-4351-A0C8-62686FDF76B4}|Panel.UI\\Panel.UI.csproj|R:\\GITHUB\\Desktop-Panel\\DesktopPanel\\panel.ui\\panelsettingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E9A38E9-C793-4351-A0C8-62686FDF76B4}|Panel.UI\\Panel.UI.csproj|solutionrelative:panel.ui\\panelsettingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -45,8 +45,7 @@
               "ToolTip": "R:\\GITHUB\\Desktop-Panel\\DesktopPanel\\Panel.UI\\PanelSettingsForm.cs [Design]",
               "RelativeToolTip": "Panel.UI\\PanelSettingsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T12:12:02.586Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-21T12:12:02.586Z"
             }
           ]
         }

@@ -37,6 +37,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ApplicationForm));
             btnAddApp = new Guna.UI2.WinForms.Guna2Button();
             btnAppDelete = new Guna.UI2.WinForms.Guna2Button();
             tabControl = new Guna.UI2.WinForms.Guna2TabControl();
@@ -171,8 +172,10 @@
             Controls.Add(tabControl);
             Controls.Add(btnAppDelete);
             Controls.Add(btnAddApp);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "ApplicationForm";
-            Text = "ApplicationForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Uygulama Paneli";
             Load += ApplicationForm_Load;
             ResumeLayout(false);
         }

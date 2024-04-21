@@ -32,6 +32,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DeleteCategoryForm));
             btnDeleteCategory = new Guna.UI2.WinForms.Guna2GradientButton();
             cbxCategories = new Guna.UI2.WinForms.Guna2ComboBox();
             lblCategoryName = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -92,8 +93,10 @@
             Controls.Add(btnDeleteCategory);
             Controls.Add(cbxCategories);
             Controls.Add(lblCategoryName);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DeleteCategoryForm";
-            Text = "DeleteCategoryForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Kategori sil";
             Load += DeleteCategoryForm_Load;
             ResumeLayout(false);
             PerformLayout();
